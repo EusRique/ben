@@ -1,0 +1,15 @@
+.idea/
+.git/
+.gitignore
+hack/
+app/
+mock/
+node_modules/
+test/
+.bower*
+.editor*
+.git*
+.js*
+*.json
+*.md
+Makefile

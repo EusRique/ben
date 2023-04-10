@@ -1,0 +1,13 @@
+{
+  "apps":[
+    {
+      "name":"Dashboard",
+      "role":"dashboard"
+    },
+    {
+      "name":"Maps",
+      "role":"maps"
+    }
+  ]
+}
+

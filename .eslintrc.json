@@ -1,0 +1,40 @@
+{
+  "root": true,
+  "env": {
+    "browser": true,
+    "es2021": true,
+    "node": true
+  },
+  "extends": [
+    "plugin:vue/vue3-recommended",
+    "standard-with-typescript"
+  ],
+  "overrides": [],
+  "parserOptions": {
+    "ecmaVersion": 2022,
+    "sourceType": "module",
+    "project": "./tsconfig.json"
+  },
+  "plugins": [
+    "vue"
+  ],
+  "rules": {
+    "@typescript-eslint/explicit-function-return-type": "off",
+    "vue/max-attributes-per-line": [
+      "error",
+      {
+        "singleline": {
+          "max": 3
+        }
+      }
+    ]
+  },
+  "ignorePatterns": [
+    "vite.config.ts",
+    "vitest.config.ts",
+    "`node_modules/",
+    "public/",
+    "dist/",
+    ".nvmrc"
+  ]
+}

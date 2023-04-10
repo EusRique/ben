@@ -59,7 +59,7 @@ Pontos a serem levados em consideração antes de introduzir uma nova feature ou
 ## Prod Dependencies:
 
 - axios: Promise based HTTP client for the browser;
-- svg4everybody: Dependency necessary to install this 'polyfill' in your project to have the maximum support of browsers to SVG's.(Viking-weapons UI)
+- svg4everybody: Dependency necessary to install this 'polyfill' in your project to have the maximum support of browsers to SVG's.
 - vue - Progressive JS Framework;
 - vue-router - Expressive, configurable and convenient routing for Vue.js;
 
